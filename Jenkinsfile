@@ -27,7 +27,7 @@ pipeline {
                 echo "Deploying the Online Examination System to the ${params.ENVIRONMENT} environment..."
                 
                 # Simulates the execution of the app in the chosen environment
-                bat "python app.py"
+                bat "python app.py" //khuzaifa
             }
         }
     }
